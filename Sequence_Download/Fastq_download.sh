@@ -10,6 +10,7 @@
 CODE_DIR=/data/SBBS-FumagalliLab/Horse/Ricardo/EquSeq #insert your code directory path here (pwd command)
 RES_DIR=$CODE_DIR/results/raw_files #change it to desired results directory
 
+
 echo '=================================='
 echo -e "\nLoad modules\n"
 module load anaconda3
