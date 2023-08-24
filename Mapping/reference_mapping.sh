@@ -5,7 +5,7 @@
 #$ -j y
 #$ -l h_rt=48:0:0
 #$ -m bea
-#$ -t 1-15
+#$ -t 1-72
 
 ##create directories where results of script will be stored, just for the first PBS ARRAY INDEX
 if [ $SGE_TASK_ID == 1 ]
